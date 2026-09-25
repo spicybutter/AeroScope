@@ -1,0 +1,9 @@
+dependencies:
+  idf: ">=6.1"
+  espressif/esp_lcd_gc9a01: "~2.0.4"   # same driver/version as the hardware diagnostic firmware
+  espressif/mdns: "^1.13.1"            # aeroscope.local
+  espressif/cjson: "^1.7.19"           # OpenSky JSON parsing (cJSON left the IDF tree in v6)
+  espressif/qrcode: "^0.2.0"           # QR codes on the setup/connected screens (#26)
+  espressif/esp_lvgl_port: "^2.9.0"    # LVGL display/tick/task glue (#36)
+  lvgl/lvgl: "~9.3.0"                  # UI pages, touch gestures (#29-#35)
+  espressif/esp_codec_dev: "~1.6.2"    # ES8311 audio (#46), same as the diagnostic firmware

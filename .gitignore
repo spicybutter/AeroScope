@@ -65,8 +65,41 @@ avr-toolchain-*.zip
 /app/build/
 /arduino-core/build/
 
+# ESP-IDF
+build/
+sdkconfig.old
+managed_components/
+
+# Secrets / credentials
+.env
+.env.*
+secrets.*
+credentials.*
+wifi_config.*
+
+# Firmware dumps / backups
+factory-backup/
+*.bin
+*.elf
+*.map
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
+
 manifest.mf
 nbbuild.xml
 nbproject
 .pio
 .vscode
+# Local debug output
+boot-log/
+build.log
+releases/
+
+# Local notes
+PARITY_CHECKLIST.md
