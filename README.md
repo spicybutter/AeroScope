@@ -1,5 +1,9 @@
 # AeroScope
 
+<p align="center">
+  <img src="docs/aeroscope.jpg" alt="AeroScope on the round display next to the live web dashboard on a phone" width="600">
+</p>
+
 A live flight radar for the **Spotpear SP-ESP32-S3-1.28-BOX** (the round 1.28" "Xiaozhi" board). It shows nearby aircraft from [OpenSky Network](https://opensky-network.org/) on the 240×240 GC9A01 touch screen, and adds a live web dashboard, touch pages, sound alerts and a hardware self-test.
 
 AeroScope is an ESP-IDF rewrite of [micro-radar](https://github.com/AnthonySturdy/micro-radar) by Anthony Sturdy (MIT). The full feature list is in [`FEATURES.md`](FEATURES.md).
